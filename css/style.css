@@ -1,0 +1,106 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+.main-bg{
+  position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    z-index: -100;
+}
+.btn1 {
+  align-content: center;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 0.5rem;
+  font-family: Georgia;
+  color: #f0f0f0;
+  font-size: 2rem;
+  background: #cad7dd41;
+  border: 2px solid #ffffff;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  text-decoration: none;
+  
+}
+
+.btn1:hover {
+    color: white;
+  background: #424244c9;
+  text-decoration: none;
+}
+.fullscreen-bg__video{
+  position: absolute;
+  min-height: 100vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+
+}
+.rform{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+
+}
+ 
+@media (min-width: 800px) and (max-width: 850px) {
+  #topText{
+    font-size: 2.5rem;
+    color: #d3d8e2;
+   width: 0% ;
+   font-weight: bold;
+  }
+           .navbar:not(.top-nav-collapse) {
+               background: #1C2331!important;
+           }
+       }
+       
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.navbar-nav{
+  margin: auto;
+font-size: 20px;
+padding-right: 70px;
+padding-left:30px;
+  padding-right:30px;
+}
+#topText{
+ font-size: 2.5rem;
+ color: #d3d8e2;
+width: 50% ;
+font-weight: bold;
+/* padding-top: 5rem;
+padding-left: 1.2rem; */
+
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f093fb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+.h1{
+  font-size: 60px;
+  color: #022e57;
+  margin: auto;
+   font-family: cursive;
+padding: 90px;
+}
